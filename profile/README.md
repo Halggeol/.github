@@ -235,6 +235,7 @@ ex)
 ## 📂 문서
 - [기능 명세서](https://docs.google.com/spreadsheets/d/1YgbcnxUqGCbCGAtBIVXaImREHUehpBS2NaNrY802oY8/edit?gid=721364328#gid=721364328)
 - [화면 설계서](https://www.figma.com/design/EZqHFeUyP3BETLvhcbmQTI/%EA%B7%B8%EB%95%8C-%ED%95%A0%EA%B1%B8?node-id=2274-2900)
+- [요구사항 정의서](https://docs.google.com/spreadsheets/d/1YgbcnxUqGCbCGAtBIVXaImREHUehpBS2NaNrY802oY8/edit?gid=970149986#gid=970149986)
 - [Vue Router 명세서](https://www.notion.so/thinkable-hayden/23979103accb809c99a6da345c83249f?source=copy_link)
 - [API 명세서_Notion](https://www.notion.so/thinkable-hayden/API-22d79103accb80eda857f9ed4a2805e7)
 - [기획안](https://github.com/user-attachments/files/21879042/KB.6._.PJT_._20250820_1.pdf)
