@@ -329,7 +329,7 @@ ex)
 | [권민우](https://github.com/MINUUUUUUUUUUUU) | [김기범](https://github.com/gimogibumo) | [김로아](https://github.com/roa5108) | [김성학](https://github.com/hak0622) | [김하연](https://github.com/rlaxhfn) | [이은우](https://github.com/EUNWOOLEEE) |
 | --- | --- | --- | --- | --- | --- |
 | ![권민우](https://github.com/MINUUUUUUUUUUUU.png) | <img width="430" alt="image" src="https://github.com/user-attachments/assets/52082d08-d6b0-42f5-a448-8f66d45d4e78" />| ![김로아](https://github.com/roa5108.png) | ![김성학](https://github.com/hak0622.png) | ![김하연](https://github.com/rlaxhfn.png) | ![이은우](https://github.com/EUNWOOLEEE.png) |
-| **- Git 총괄**<br/> **- 배포** <br/> **- BE** <br/> **- FE** | **- BE 총괄** <br/> **- Jira 세팅** | **- BE** <br/> **- FE** | **- BE** <br/> **- FE** | **팀장** <br/> **- 디자인 & FE 총괄** <br/> **- BE** | **- 문서 총괄** <br/> **- BE** <br/> **- FE** |
+| **- Git 총괄**<br/> **- 배포** <br/> **- BE** <br/> **- FE** | **- BE 총괄** <br/> **- Jira 세팅** | **- BE** <br/> **- FE** | **- BE** <br/> **- FE** | **- 팀장** <br/> **- 디자인 & FE 총괄** <br/> **- BE** | **- 문서 총괄** <br/> **- BE** <br/> **- FE** |
 | - 금융상품 상세<br/> - 관심상품 등록 및 <br/> 삭제 <br/> - 마이데이터 연동 | - 개인화 추천 <br/> - 상품 랭킹 <br/> - 유사 상품 추천 | - 검색(최근/인기) <br/> - 금융상품 조회 및 <br/> 필터링 | - 회고 인사이트 | - 메인 대시보드 <br/> - 회고 인사이트 | - 회원가입 <br/> - 로그인 <br/> - 마이페이지 <br/> - 사용자 설문 |
 
 ---
