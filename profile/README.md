@@ -15,8 +15,8 @@
 <br/>
 
 ---
-
-## 💬 프로젝트 개요
+## ✍️ 프로젝트 소개
+### 💬 프로젝트 개요
 "그때 살걸..." 하고 후회했던 경험, 없으신가요?
 
 **그때 할걸**은 재테크에 관심은 많지만 실천을 망설이는 2030 사용자를 위한 금융상품 비교 추천 서비스입니다. 사용자가 놓쳤던 과거의 금융 기회를 시각적으로 보여주고, 개인에게 최적화된 상품을 추천하여 합리적인 금융 의사결정을 돕습니다.
@@ -29,9 +29,7 @@
 
 ---
 
-## ✍️ 프로젝트 소개
-
-### 프로젝트 배경
+### 💬 프로젝트 배경
 
 1. **2030의 이어지지 않는 금융 행위:** 
    - 금융지식은 높으나, 실제 금융 행위로 이어지는 경우가 적음.
@@ -49,20 +47,112 @@
 
 ## 📌 주요 기능
 ### 회원가입 및 로그인
+#### 회원가입
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/c4df33b8-eba9-471c-9bb2-01acfc4f91c9" />
 
+- 사용자 이메일 입력 (아이디)
+  - 회원가입 링크 전송
+- 이름, 생년월일, 전화번호, 비밀번호 입력
+
+#### 로그인
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/81d4344d-f9f6-4636-a8f5-b525fca2b4fb" />
+
 ### 메인 대시보드
+#### 1. 대시보드
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/ce33a6b2-4722-424d-bfb9-83d48831ae05" />
+
+- **그때 할걸 후회지수** (상품을 놓쳤을 때 느낄 수 있는 아쉬움의 크기를 예측한 점수)
+   - 과거 회고 인사이트의 '후회해요' 응답을 평균내어 계산
+   - 좋음(40점 미만), 보통(40점 이상 70점 미만), 나쁨(70점 미만)
+- **후회상품비율** (회고 인사이트가 발행된 상품에 대해 ‘후회해요’라고 응답한 비율)
+- **자산유형** (자산 포트폴리오에서 과반수를 차지하는 자산 유형)
+   - 공격형: 펀드, 주식 등 공격형 자산이 절반 이상인 상태
+   - 안정형: 예적금 등 안정형 자산이 절반 이상인 상태
+- **나의 기간별 순자산 그래프**
+  - 1개월/3개월/6개월/1년 기준
+- **자산 포트폴리오**
+
+#### 2. 그때 할걸 후회상품 랭킹
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/06bcd8b0-caa3-4d8a-ac34-3d27d9904c71" />
+
+- **그때 할걸 후회상품 랭킹**
+  - 많은 사용자가 가입하지 않아 후회한 금융상품 랭킹
+- 고위험상품 숨기기 기능
+  -  사용자의 투자 성향 기반으로 고위험상품들을 블락 처리
+
+#### 3. 상품 추천
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/cee664b0-8d14-4b70-bfa5-bfb1965c0a4b" />
+
+- 사용자 맞춤 상품 추천(투자 성향, 금융 이해도 기반 추천)
+- 사용자 피드백 기반으로 상품 선호도와 반응을 학습하여 추천 정확도를 지속적으로 향상
+
+<img width="500" height="196" alt="image" src="https://github.com/user-attachments/assets/56b9a4f8-ecaf-48c0-8798-1d1be8a7ad14" />
+
+- 추천상품 카드로 들어온 상품은 추천에 대한 피드백을 받음
+  - 가입 할래요: 금융 상품 가입 링크로 연결
+  - 고민해볼래요: 관심상품에 해당 상품 등록
+  - 가입 안 할래요: 이후 회고 인사이트에서 확인 가능
+
+### 회고 인사이트
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/95ddeaf6-fe9f-4cbf-ba73-e8976f6ab780" />
+
+- 사용자가 설정한 인사이트 발행 주기마다 발행됨
+- 회고 상품 목록 선택해 각 상품의 회고 인사이트 확인
+- **그때 가입하지 않아서 놓친 금액**
+- **예상 후회지수** (내 자산 대비 놓친 기회를 반영한 점수)
+- **자산 비교 그래프** (현재 자산과 가입했다면 예상되는 자산)
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/fe58b65e-b0cf-4540-a4cf-2019274c0593" />
+
+- 가입 금액에 따라 '**그때 ~만원 가입했다면** ~를 사거나, ~를 할 수 있었다'는 수익금을 시뮬레이션
+- AI가 요약해주는 상품 한 줄 설명과 장/단점
+
+<img width="700" alt="image" src="https://github.com/user-attachments/assets/30aeceb2-61e6-446d-bb0d-ba750acd29db" />
+
+- **회고 상품에 대한 사용자 피드백** 조사
+  - 후회해요/후회 안해요
+  - 후회해요 선택 시 **그때 가입하지 않은 이유** 선택
+  - 상품 추천 정확도 향상에 반영
+- 해당 상품과 유사한 상품 목록 제공
 
 ### 전체 상품 리스트
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/c4dcfeea-4d55-42c6-9067-8999acaaafad" />
 
+- 필터
+  - 상품 유형 (예금/적금/펀드/연금/외화)
+  - 은행/판매사 (1금융권/저축은행)
+  - 최소 가입기간 (6/12/24/36개월)
+  - 최소 가입 금액
+- 정렬
+  - 인기순 (조회수 + 관심상품 수 기반)
+  - 수익률순
+
 ### 상품 상세
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/9f8e58bd-f773-4c67-a18b-3cb89d437bcf" />
+
+- 관심상품 등록 및 해제
+- 가입하기 링크
+- 상품 요약 및 **나와의 적합도**
+- AI 상품 한 줄 요약 및 장/단점
+- 상품 상세 정보
+- 수익 계산기 (일반 금리/최대 금리)
 
 ### 관심 상품 리스트
 <img width="700" alt="image" src="https://github.com/user-attachments/assets/1ac851bf-c9ca-471d-9553-d3d477b5e3e2" />
 
+- 상품 유형별로 섹션 분리
+- 필터
+  - 상품 유형 (예금/적금/펀드/연금/외화)
+- 정렬
+  - 인기순 (조회수 + 관심상품 수 기반)
+  - 수익률순
+ 
+### 내 정보
+<img width="1300" height="712" alt="image" src="https://github.com/user-attachments/assets/4c003422-607f-4bb8-a0e9-1f128a269b1d" />
+
+- 회원가입 시 입력받은 사용자 정보
+- 금융이해도와 투자성향 재검사
+- 인사이트 제공 주기 (1주/2주/1개월) 변경
 
 
 ---
@@ -74,7 +164,7 @@
 ---
 
 ## 💻 시스템 아키텍처
-<img width="512" alt="image" src="https://github.com/user-attachments/assets/0c849a4a-ca1b-4524-9e39-2482023cfddb" />
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/0c849a4a-ca1b-4524-9e39-2482023cfddb" />
 
 
 ---
