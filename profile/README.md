@@ -167,7 +167,8 @@
 ---
 
 ## 💻 시스템 아키텍처
-<img width="700" height="3673" alt="image" src="https://github.com/user-attachments/assets/2b75a812-8083-422d-8f84-b9bee781a76e" />
+<img width="850" height="4976" alt="image" src="https://github.com/user-attachments/assets/bf57dc2e-b8a3-4320-89c3-aaa7404469e1" />
+
 
 
 
