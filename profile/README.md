@@ -67,6 +67,12 @@
 
 ---
 
+## 🪄 UX Flow
+<img width="1800"  alt="image" src="https://github.com/user-attachments/assets/3ca45498-9b00-4cf4-a151-cbd7fc653db0" />
+
+
+---
+
 ## 💻 시스템 아키텍처
 <img width="512" alt="image" src="https://github.com/user-attachments/assets/0c849a4a-ca1b-4524-9e39-2482023cfddb" />
 
@@ -88,10 +94,10 @@
 <td>
 <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/Vue_Router-4FC08D?style=flat&logo=vue.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
 <img src="https://img.shields.io/badge/Pinia-FFD859?style=flat&logo=pinia&logoColor=black"/>
 <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat&logo=axios&logoColor=white"/>
 <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white"/>
-<img src="https://img.shields.io/badge/daisyUI-5A0EF8?style=flat&logo=daisyui&logoColor=white"/>
 <img src="https://img.shields.io/badge/Chart.js-FF6384?style=flat&logo=chart.js&logoColor=white"/>
 </td>
 </tr>
@@ -207,13 +213,33 @@ ex)
 
 ---
 
+## 🎨 디자인 시스템
+- **KB 국민은행의 브랜드 컬러**를 메인으로 활용했습니다.
+<img width="500" alt="image" src="https://github.com/user-attachments/assets/9a10b34a-851a-46ca-9668-adb4994b4a78" />
+
+
+
+
+
+---
+
 ## 🧑‍🤝‍🧑 팀원 소개
 | [권민우](https://github.com/MINUUUUUUUUUUUU) | [김기범](https://github.com/gimogibumo) | [김로아](https://github.com/roa5108) | [김성학](https://github.com/hak0622) | [김하연](https://github.com/rlaxhfn) | [이은우](https://github.com/EUNWOOLEEE) |
 | --- | --- | --- | --- | --- | --- |
-| ![권민우](https://github.com/MINUUUUUUUUUUUU.png) | <img width="480" alt="image" src="https://github.com/user-attachments/assets/52082d08-d6b0-42f5-a448-8f66d45d4e78" />| ![김로아](https://github.com/roa5108.png) | ![김성학](https://github.com/hak0622.png) | ![김하연](https://github.com/rlaxhfn.png) | ![이은우](https://github.com/EUNWOOLEEE.png) |
+| ![권민우](https://github.com/MINUUUUUUUUUUUU.png) | <img width="430" alt="image" src="https://github.com/user-attachments/assets/52082d08-d6b0-42f5-a448-8f66d45d4e78" />| ![김로아](https://github.com/roa5108.png) | ![김성학](https://github.com/hak0622.png) | ![김하연](https://github.com/rlaxhfn.png) | ![이은우](https://github.com/EUNWOOLEEE.png) |
 | **- Git 총괄**<br/> **- 배포** <br/> **- BE** <br/> **- FE** | **- BE 총괄** <br/> **- Jira 세팅** | **- BE** <br/> **- FE** | **- BE** <br/> **- FE** | **팀장** <br/> **- 디자인 & FE 총괄** <br/> **- BE** | **- 문서 총괄** <br/> **- BE** <br/> **- FE** |
-| - 금융상품 상세<br/> - 관심상품 등록 및 <br/> 삭제 | - 개인화 추천 <br/> - 상품 랭킹 | - 검색(최근/인기) <br/> - 금융상품 조회 및 <br/> 필터링 | - 유사 상품 추천 <br/> - 회고 인사이트 | - 대시보드 <br/> - 데이터 시각화 | - 회원관리 <br/> - 마이데이터 연동 |
+| - 금융상품 상세<br/> - 관심상품 등록 및 <br/> 삭제 <br/> - 마이데이터 연동 | - 개인화 추천 <br/> - 상품 랭킹 <br/> - 유사 상품 추천 | - 검색(최근/인기) <br/> - 금융상품 조회 및 <br/> 필터링 | - 회고 인사이트 | - 메인 대시보드 <br/> - 회고 인사이트 | - 회원가입 <br/> - 로그인 <br/> - 마이페이지 <br/> - 사용자 설문 |
 
 ---
 
 ## 📂 문서
+- [기능 명세서](https://docs.google.com/spreadsheets/d/1YgbcnxUqGCbCGAtBIVXaImREHUehpBS2NaNrY802oY8/edit?gid=721364328#gid=721364328)
+- [화면 설계서](https://www.figma.com/design/EZqHFeUyP3BETLvhcbmQTI/%EA%B7%B8%EB%95%8C-%ED%95%A0%EA%B1%B8?node-id=2274-2900)
+- [Vue Router 명세서](https://www.notion.so/thinkable-hayden/23979103accb809c99a6da345c83249f?source=copy_link)
+- [API 명세서_Notion](https://www.notion.so/thinkable-hayden/API-22d79103accb80eda857f9ed4a2805e7)
+- [기획안](https://github.com/user-attachments/files/21879042/KB.6._.PJT_._20250820_1.pdf)
+- [테스트 문서](https://docs.google.com/spreadsheets/d/1YgbcnxUqGCbCGAtBIVXaImREHUehpBS2NaNrY802oY8/edit?gid=1314951162#gid=1314951162)
+- [부하 테스트](https://www.notion.so/thinkable-hayden/24d79103accb80d0a5c8e8d81486651c?source=copy_link)
+- [WBS - JIRA](https://kb-halggeol.atlassian.net/jira/software/projects/FFBV/boards/35/timeline?atlOrigin=eyJpIjoiMjAxNDFmNzM3MmUyNGM1ZmJhZTBkZThlNDMxMTI4MGIiLCJwIjoiaiJ9)
+- [Team Notion](https://www.notion.so/thinkable-hayden/PTJ-11-1-22679103accb80d2ba63f3c7682925a5?source=copy_link)
+
